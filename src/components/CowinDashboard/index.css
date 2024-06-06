@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  background-color: #161625;
+  padding: 20px;
+  min-height: 100vh;
+  background-size: cover;
+}
+.website-logo {
+  width: 50px;
+  height: 50px;
+}
+.logo {
+  color: #2cc6c6;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 65%;
+  height: 65%;
+}
+.failure-text {
+  color: white;
+  font-weight: bold;
+  font-family: 'bree Serif';
+}
+.des {
+  color: white;
+  font-weight: bold;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-stats-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
